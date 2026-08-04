@@ -1,4 +1,4 @@
-public class rec3 {
+public class rec3_Sum_1_To_N_And_Factorial {
     // Parameterized Recursion
     public static void parameterizedRecursionSum1toN(int i, int sum){
         if(i == 0) {

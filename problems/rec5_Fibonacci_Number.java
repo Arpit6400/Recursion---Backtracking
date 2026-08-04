@@ -1,4 +1,4 @@
-public class rec5 {
+public class rec5_Fibonacci_Number {
     public static int functionalRecursionFibonacci(int n){
         if(n <= 1) return n;
         return functionalRecursionFibonacci(n-1) + functionalRecursionFibonacci(n-2);

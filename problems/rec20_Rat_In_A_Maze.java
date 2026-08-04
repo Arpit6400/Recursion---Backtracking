@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec20 {
+public class rec20_Rat_In_A_Maze {
     public ArrayList<String> ratInMaze(int[][] maze) {
         if (maze[0][0] == 0 || maze[maze.length - 1][maze[0].length - 1]==0) {
             return new ArrayList<>();
@@ -34,8 +34,8 @@ public class rec20 {
     }
     public static void main(String[] args) {
         int[][] maze = {{1, 0, 0, 0}, {1, 1, 0, 1}, {1, 1, 0, 0}, {0, 1, 1, 1}};
-        rec20 rec20 = new rec20();
-        ArrayList<String> ans = rec20.ratInMaze(maze);
+        rec20_Rat_In_A_Maze rec20_Rat_In_A_Maze = new rec20_Rat_In_A_Maze();
+        ArrayList<String> ans = rec20_Rat_In_A_Maze.ratInMaze(maze);
         for (String string : ans) {
             System.out.println(string);
         }

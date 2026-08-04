@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec16 {
+public class rec16_N_Queens {
     // public List<List<String>> solveNQueens(int n) {
     //     List<List<String>> ans = new ArrayList<>();
     //     String[][] board = new String[n][n];

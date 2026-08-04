@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec19 {
+public class rec19_Palindrome_Partitioning {
     public List<List<String>> partition(String s) {
         List<List<String>> ans = new ArrayList<>();
         List<String> path = new ArrayList<>();

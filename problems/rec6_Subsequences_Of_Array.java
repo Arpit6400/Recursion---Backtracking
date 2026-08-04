@@ -1,5 +1,5 @@
 import java.util.*;
-public class rec6 {
+public class rec6_Subsequences_Of_Array {
     //Print contiguous subarrays using recursion
     public static void printAllConbinations(int idx, List<Integer> ls, int[] arr){
         if(idx >= arr.length) {

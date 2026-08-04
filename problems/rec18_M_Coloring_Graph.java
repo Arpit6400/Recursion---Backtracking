@@ -1,6 +1,6 @@
 import java.util.Arrays;
 
-public class rec18 {
+public class rec18_M_Coloring_Graph {
     boolean graphColoring(int v, int[][] edges, int m) {
      int color[] = new int[v];
      Arrays.fill(color, 0);

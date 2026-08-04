@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec22 {
+public class rec22_Letter_Combinations_Phone_Number {
     public List<String> letterCombinations(String digits) {
         List<String> ans = new ArrayList<>();
         if (digits.length() == 0) {
@@ -24,8 +24,8 @@ public class rec22 {
        }
     }
     public static void main(String[] args) {
-        rec22 rec22 = new rec22();
-        List<String> finalAns = rec22.letterCombinations("23");
+        rec22_Letter_Combinations_Phone_Number rec22_Letter_Combinations_Phone_Number = new rec22_Letter_Combinations_Phone_Number();
+        List<String> finalAns = rec22_Letter_Combinations_Phone_Number.letterCombinations("23");
         for (String string : finalAns) {
             System.out.println(string);
         }

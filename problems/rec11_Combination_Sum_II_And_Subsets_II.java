@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec11 {
+public class rec11_Combination_Sum_II_And_Subsets_II {
     // Brute force approach
     // public List<List<Integer>> combinationSum2(int[] candidates, int target) {
     //     HashSet<List<Integer>> set = new HashSet<>();
@@ -70,7 +70,7 @@ public class rec11 {
         }
     }
     public static void main(String[] args) {
-        rec11 rec = new rec11();
+        rec11_Combination_Sum_II_And_Subsets_II rec = new rec11_Combination_Sum_II_And_Subsets_II();
         List<List<Integer>> ls = rec.combinationSum2(new int[]{2,1,1,1,2}, 4);
         for (List<Integer> list : ls) {
             System.out.println(list.toString());

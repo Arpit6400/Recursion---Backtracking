@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec4 { 
+public class rec4_Reverse_Array { 
     public static void reverseArray(int left, int right, int arr[]){
         if(left >= right) return;
         int temp = arr[left];

@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec23 {
+public class rec23_Generate_Parentheses {
     public List<String> generateParenthesis(int n) {
         List<String> ans = new ArrayList<>();
         StringBuilder sb = new StringBuilder();
@@ -36,8 +36,8 @@ public class rec23 {
         return stk.isEmpty();
     }
     public static void main(String[] args) {
-        rec23 rec23 = new rec23();
-        List<String> ans = rec23.generateParenthesis(3);
+        rec23_Generate_Parentheses rec23_Generate_Parentheses = new rec23_Generate_Parentheses();
+        List<String> ans = rec23_Generate_Parentheses.generateParenthesis(3);
         for (String string : ans) {
             System.out.println(string);
         }

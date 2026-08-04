@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec21 {
+public class rec21_Kth_Permutation_Sequence {
     public String getPermutation(int n, int k) {
         int fact  = 1;
         List<Integer> numbers = new ArrayList<>();

@@ -1,7 +1,7 @@
 import java.util.*;
 import java.util.stream.Collectors;
 
-public class rec14 {
+public class rec14_Permutations_Of_Array {
     // public List<List<Integer>> permute(int[] nums) {
     //     List<List<Integer>> ans = new ArrayList<>();
     //     Boolean[] flag = new Boolean[nums.length];

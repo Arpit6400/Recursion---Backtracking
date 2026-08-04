@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.List;
 
-public class rec7 {
+public class rec7_Subsequences_With_Sum_K {
     public static int countSubsequenceWhereSumIsK(int idx, int[] arr, int sum, int targetSum){
         if (idx >=arr.length) {
             if(sum==targetSum) return 1;

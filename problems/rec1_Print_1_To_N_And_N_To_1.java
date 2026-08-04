@@ -1,4 +1,4 @@
-public class rec1 {
+public class rec1_Print_1_To_N_And_N_To_1 {
     public static void print1toNUsingRecursion(int i, int n){
         if(i>n) return;
         System.out.println("i = " + i);

@@ -1,4 +1,4 @@
-public class rec17 {
+public class rec17_Sudoku_Solver {
     public void solveSudoku(char[][] board) {
         solve(board);
     }

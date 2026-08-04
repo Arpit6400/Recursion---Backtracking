@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rec10 {
+public class rec10_Combination_Sum_I {
     
     public List<List<Integer>> combinationSum(int[] candidates, int target) {
         List<List<Integer>> ans = new ArrayList<>();
@@ -23,7 +23,7 @@ public class rec10 {
         findCombinationSum(idx+1, candidates, target, ans, arrayList);
     }
     public static void main(String[] args) {
-        rec10 rec =new rec10();
+        rec10_Combination_Sum_I rec =new rec10_Combination_Sum_I();
         List<List<Integer>> ans = rec.combinationSum(new int[]{2,3,6,7}, 7);
         for (List<Integer> list : ans) {
             System.out.println(list.toString());

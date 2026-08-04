@@ -1,6 +1,6 @@
 import java.util.*;
 
-class rec12 {
+class rec12_Subset_Sums {
     public ArrayList<Integer> subsetSums(int[] arr) {
         // code here
         ArrayList<Integer> ans = new ArrayList<>();
